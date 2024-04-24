@@ -213,7 +213,9 @@ hr {
 .aboutyap {
 	padding: 10px;
 }
-
+h2 {
+  padding: 5px;
+}
 .map {
 	margin: 25px;
 	width: 50%;
