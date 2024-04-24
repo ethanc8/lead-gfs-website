@@ -155,7 +155,7 @@ h2 {
 	font-style: Roboto;
 }
 
-p {
+.boxed-text {
 	padding: 5px;
 	margin: 5px;
 	border-style: solid;
