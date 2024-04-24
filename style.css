@@ -1,0 +1,237 @@
+<!DOCTYPE CSS>
+ <!--Owen Larkin, Nathan Vortia, Jonathan Handjojo, Ethan Charoenpitaks-->
+
+root {
+  --color-primary: #0073ff;
+  --color-white: #e9e9e9;
+  --color-black: #141d28;
+  --color-black-1: #212b38;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+ 
+}
+
+.logo {
+  color: white;
+  font-size: 30px;
+}
+
+.logo span {
+  color: green;
+}
+
+.menu-bar {
+  background-color: black;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+
+  position: relative;
+}
+
+.menu-bar ul {
+  list-style: none;
+  display: flex;
+}
+
+.menu-bar ul li {
+  /* width: 120px; */
+  padding: 10px 30px;
+  /* text-align: center; */
+
+  position: relative;
+}
+
+.menu-bar ul li a {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+
+  transition: all 0.3s;
+}
+
+.menu-bar ul li a:hover {
+  color: green;
+}
+
+.fas {
+  float: right;
+  margin-left: 10px;
+  padding-top: 3px;
+}
+
+/* dropdown menu style */
+.dropdown-menu {
+  display: none;
+}
+
+.menu-bar ul li:hover .dropdown-menu {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background-color: black;
+}
+
+.menu-bar ul li:hover .dropdown-menu ul {
+  display: block;
+  margin: 10px;
+}
+
+.menu-bar ul li:hover .dropdown-menu ul li {
+  width: 150px;
+  padding: 10px;
+}
+
+.dropdown-menu-1 {
+  display: none;
+}
+
+.dropdown-menu ul li:hover .dropdown-menu-1 {
+  display: block;
+  position: absolute;
+  left: 150px;
+  top: 0;
+  background-color: black;
+}
+
+.Home {
+  background-image: url(bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  height: 300px;
+}
+
+.Sudan {
+  background-image: url(Sudan.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  height: 300px;
+}
+
+footer {
+	font-family: Palatino;
+	line-height: 2;
+	color: white;
+	background-color: black;
+	padding: 5px;
+	Margin: 0px;
+}
+
+.imgf {
+	float:right;`
+}
+
+.centered-text {
+  width: 1000px;
+  margin: auto;
+}
+
+
+.but {
+	background-color: black;
+}
+
+h2 {
+	color:white;
+	text-align: center;
+	margin-top:130px;
+	font-size: 50px;
+	font-style: Roboto;
+}
+
+p {
+	padding: 5px;
+	margin: 5px;
+	border-style: solid;
+	border-radius: 15px;
+	margin-top: -5px;
+}
+
+hr {
+	padding: 0px;
+	margin: 0px;
+}
+
+.footer {
+	border: none;
+	Margin: 0px;
+	padding:0px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 10px;
+}
+
+.column1 {
+  flex: auto;
+  padding: 10px;
+  Margin: 10px;
+}
+
+.link {
+	text-decoration-line:none;
+	color:white;
+}
+
+.about {
+	float: right;
+	height: 200px;
+	width: 150px;
+	Margin: 10px;
+	display: block;
+}
+
+.aboutclass {
+	border: none;
+	line-height: 2;
+}
+
+.aboutyap {
+	padding: 10px;
+}
+
+.map {
+	margin: 25px;
+	width: 50%;
+	height: 400px;
+	display: block;
+}
+
+.problem {
+	padding: 10px;
+	background-color: #e3e2de;
+	border: none;
+}
+
+h3 {
+	color:black;
+	text-align: center;
+	font-size: 25px;
+	font-style: Roboto;
+	margin: 10px;
+}
+
+.why {
+	display: flex;
+}
