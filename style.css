@@ -138,7 +138,7 @@ footer {
 }
 
 .centered-text {
-  width: 1000px;
+  max-width: 1000px;
   margin: auto;
 }
 
@@ -147,7 +147,7 @@ footer {
 	background-color: black;
 }
 
-h2 {
+.nice-header {
 	color:white;
 	text-align: center;
 	margin-top:130px;
